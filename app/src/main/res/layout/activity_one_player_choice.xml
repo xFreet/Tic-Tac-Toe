@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ga.jkowalczyk.tictactoe.TicTacToeActivity"
+    android:orientation="vertical"
+    android:background="#29292b"
+    android:layout_weight="100">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="10"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/title"
+        android:textColor="#00f76e"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:text="CHOOSE \n THE DIFFICULTY LEVEL"
+        android:textSize="37dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="6"
+        android:id="@+id/textview"
+        android:text="EASY"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="35dp"
+        android:onClick="one_player" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="6"
+        android:id="@+id/textview2"
+        android:text="NORMAL"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:onClick="two_player"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="6"
+        android:id="@+id/textview4"
+        android:text="HARD"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:onClick="hard"
+        android:layout_marginBottom="30dp" />
+
+</LinearLayout>

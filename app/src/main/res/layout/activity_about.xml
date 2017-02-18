@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ga.jkowalczyk.tictactoe.aboutActivity"
+    android:orientation="vertical"
+    android:background="@drawable/back_min">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="80"
+        android:text="TIC TAC TOE "
+        android:textSize="55dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:id="@+id/nazwa"
+        android:layout_marginTop="20dp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:id="@+id/logos"
+        android:src="@drawable/logo4_min"
+        android:clickable="true"
+        android:onClick="tosty"/>
+
+</LinearLayout>
